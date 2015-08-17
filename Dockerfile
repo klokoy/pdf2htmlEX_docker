@@ -25,3 +25,6 @@ RUN sudo apt-get install -qq libpoppler-glib-dev
 #
 RUN git clone git://github.com/coolwanglu/pdf2htmlEX.git
 RUN cd pdf2htmlEX && cmake . && make && sudo make install
+ENTRYPOINT ["pdf2htmlEX"]
+CMD ["-h"]
+
