@@ -5,7 +5,7 @@ Automated docker build for pdf2htmlEX
 
 see: https://registry.hub.docker.com/u/klokoy/pdf2htmlex/
 
-## How to use this docker containter to convert pdf file to html
+## How to use this docker container to convert pdf file to html
 Suppose you have a PDF file ~/pdf/test.pdf, simply running
 
     docker run -ti -v ~/pdf:/pdf klokoy/pdf2htmlex
@@ -13,6 +13,6 @@ Suppose you have a PDF file ~/pdf/test.pdf, simply running
 
 would produce a single HTML file test.html in the current directory.
 
-For detail instruciton, please read the wiki
+For detail instructions, please read the wiki
 
 https://github.com/coolwanglu/pdf2htmlEX/wiki/Quick-Start
